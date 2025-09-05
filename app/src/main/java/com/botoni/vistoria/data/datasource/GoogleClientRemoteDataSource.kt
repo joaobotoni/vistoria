@@ -24,7 +24,7 @@ class GoogleClientRemoteDataSource @Inject constructor(
     private var isFirstLogin = true
     private val firebaseAuth: FirebaseAuth = FirebaseAuth.getInstance()
     private val credentialManager: CredentialManager = CredentialManager.create(context)
-    private val webClientId: String = "22526282670-31a7r6fr4lq533d81ffpvlfkb2caqj7u.apps.googleusercontent.com"
+    private val webClientId: String = ""
 
     companion object {
         private const val TAG = "GoogleAuth"
